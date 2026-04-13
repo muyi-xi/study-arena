@@ -1419,22 +1419,36 @@
             const joke = getTodayJoke();
             const titleEl = document.getElementById('fun-title');
             const questionEl = document.getElementById('fun-question');
+            const answerEl = document.getElementById('fun-answer');
+            const btnEl = document.getElementById('fun-btn');
             
-            // 根据类型显示不同标题
+            // 根据类型显示不同标题和交互方式
             if (joke.type === 'riddle') {
+                // 脑筋急转弯：需要点击揭晓答案
                 titleEl.textContent = '🧠 今日脑筋急转弯';
+                questionEl.textContent = joke.question;
+                answerEl.style.display = 'none';
+                btnEl.style.display = 'block';
+                btnEl.textContent = '🎯 揭晓答案';
+                document.getElementById('fun-answer-text').textContent = joke.answer;
+                jokeRevealed = false;
             } else if (joke.type === 'joke') {
+                // 冷笑话：直接显示笑点
                 titleEl.textContent = '😂 今日冷笑话';
+                questionEl.textContent = joke.question;
+                answerEl.style.display = 'block';
+                answerEl.querySelector('#fun-answer-text').innerHTML = '<strong>😄 笑点：</strong>' + joke.answer;
+                btnEl.style.display = 'none';
+                jokeRevealed = true;
             } else {
+                // 冷知识：直接显示知识
                 titleEl.textContent = '💡 今日冷知识';
+                questionEl.textContent = joke.question;
+                answerEl.style.display = 'block';
+                answerEl.querySelector('#fun-answer-text').innerHTML = '<strong>📚 解答：</strong>' + joke.answer;
+                btnEl.style.display = 'none';
+                jokeRevealed = true;
             }
-            questionEl.textContent = joke.question;
-            
-            // 重置答案状态
-            jokeRevealed = false;
-            document.getElementById('fun-answer').style.display = 'none';
-            document.getElementById('fun-btn').textContent = '🎯 揭晓答案';
-            document.getElementById('fun-answer-text').textContent = joke.answer;
         }
         
         // 切换答案显示
