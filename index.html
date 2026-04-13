@@ -1424,12 +1424,12 @@
             
             // 根据类型显示不同标题和交互方式
             if (joke.type === 'riddle') {
-                // 脑筋急转弯：需要点击揭晓答案
+                // 脑筋急转弯：需要点击解答
                 titleEl.textContent = '🧠 今日脑筋急转弯';
                 questionEl.textContent = joke.question;
                 answerEl.style.display = 'none';
                 btnEl.style.display = 'block';
-                btnEl.textContent = '🎯 揭晓答案';
+                btnEl.textContent = '📖 解答';
                 document.getElementById('fun-answer-text').textContent = joke.answer;
                 jokeRevealed = false;
             } else if (joke.type === 'joke') {
@@ -1437,17 +1437,18 @@
                 titleEl.textContent = '😂 今日冷笑话';
                 questionEl.textContent = joke.question;
                 answerEl.style.display = 'block';
-                answerEl.querySelector('#fun-answer-text').innerHTML = '<strong>😄 笑点：</strong>' + joke.answer;
+                answerEl.querySelector('#fun-answer-text').innerHTML = '<span style="color:#4ade80;">😄 笑点：</span>' + joke.answer;
                 btnEl.style.display = 'none';
                 jokeRevealed = true;
             } else {
-                // 冷知识：直接显示知识
+                // 冷知识：需要点击解答
                 titleEl.textContent = '💡 今日冷知识';
                 questionEl.textContent = joke.question;
-                answerEl.style.display = 'block';
-                answerEl.querySelector('#fun-answer-text').innerHTML = '<strong>📚 解答：</strong>' + joke.answer;
-                btnEl.style.display = 'none';
-                jokeRevealed = true;
+                answerEl.style.display = 'none';
+                btnEl.style.display = 'block';
+                btnEl.textContent = '📖 解答';
+                document.getElementById('fun-answer-text').innerHTML = '<span style="color:#4ade80;">📚 解答：</span>' + joke.answer;
+                jokeRevealed = false;
             }
         }
         
@@ -1459,10 +1460,10 @@
             
             if (jokeRevealed) {
                 answerEl.style.display = 'none';
-                btnEl.textContent = '🎯 揭晓答案';
+                btnEl.textContent = '📖 解答';
             } else {
                 answerEl.style.display = 'block';
-                btnEl.textContent = '🙈 收起答案';
+                btnEl.textContent = '🙈 收起';
             }
             jokeRevealed = !jokeRevealed;
         }
