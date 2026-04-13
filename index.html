@@ -548,7 +548,8 @@
             border-radius: 12px;
             border-left: 3px solid #ff6b6b;
             margin-bottom: 15px;
-            animation: popIn 0.3s ease;
+            /* 直接显示，不使用任何动画或过渡 */
+            opacity: 1;
         }
         
         .joke-answer-text {
@@ -1457,16 +1458,18 @@
             }
         }
         
-        // 切换答案显示
+        // 切换答案显示 - 直接显示，无任何动画
         function toggleFunAnswer(event) {
             event.stopPropagation();
             const answerEl = document.getElementById('fun-answer');
             const btnEl = document.getElementById('fun-btn');
             
             if (jokeRevealed) {
+                // 收起答案 - 直接隐藏
                 answerEl.style.display = 'none';
                 btnEl.textContent = '📖 解答';
             } else {
+                // 显示答案 - 直接显示在原位
                 answerEl.style.display = 'block';
                 btnEl.textContent = '🙈 收起';
             }
