@@ -78,34 +78,186 @@
     }
   ],
   "jokes": [
-    { "type": "riddle", "question": "什么东西越洗越脏？", "answer": "水" },
-    { "type": "riddle", "question": "什么书买的人最多但却没人看过？", "answer": "秘书" },
-    { "type": "riddle", "question": "什么饼不能吃？", "answer": "铁饼" },
-    { "type": "riddle", "question": "什么河过不去？", "answer": "银河" },
-    { "type": "riddle", "question": "什么车坐不了人？", "answer": "风车" },
-    { "type": "joke", "question": "为什么程序员总是分不清万圣节和圣诞节？", "answer": "因为Oct 31 = Dec 25" },
-    { "type": "joke", "question": "程序员的四大谎言：1.注释马上补 2.变量命名很清晰 3.明天就改 4.这是最后一版", "answer": "你中了几条？😂" },
-    { "type": "riddle", "question": "有一种动物，你杀了它却流的是你自己的血？", "answer": "蚊子" },
-    { "type": "joke", "question": "为什么学霸的爱情总是很甜蜜？", "answer": "因为他们有共同的话题：学习" },
-    { "type": "riddle", "question": "什么东西天气越热它越喜欢出来？", "answer": "冰淇淋" },
-    { "type": "riddle", "question": "什么动物最容易摔倒？", "answer": "狐狸，因为它狡猾（脚滑）" },
-    { "type": "joke", "question": "为什么考研的人不会迷路？", "answer": "因为他们一直在找'上岸'的路" },
-    { "type": "riddle", "question": "人从哪来却没有办法往回走？", "answer": "厕所" },
-    { "type": "joke", "question": "为什么数学课本总是很伤心？", "answer": "因为它有太多的'例题'被做掉了" },
-    { "type": "riddle", "question": "什么帽不能戴？", "answer": "螺丝帽" },
-    { "type": "joke", "question": "为什么英语四六级考试要带耳机？", "answer": "为了听清楚自己是哪个级别的'菜'" },
-    { "type": "riddle", "question": "什么人一年只工作一天却不会被开除？", "answer": "圣诞老人" },
-    { "type": "riddle", "question": "什么地方早上和晚上都是黑的？", "answer": "梦里" },
-    { "type": "joke", "question": "为什么考研自习室里的水杯都很整齐？", "answer": "因为它们都是'上岸'的水" },
-    { "type": "riddle", "question": "什么门永远关不上？", "answer": "球门" },
-    { "type": "riddle", "question": "什么字全世界人民都写不好？", "answer": "错" },
-    { "type": "joke", "question": "为什么考研人喜欢吃泡面？", "answer": "因为他们没时间等外卖，只能'泡'时间" },
-    { "type": "riddle", "question": "什么球只能踢不能打？", "answer": "地球" },
-    { "type": "joke", "question": "为什么图书馆的书总是很安静？", "answer": "因为它们都是'静'的" },
-    { "type": "riddle", "question": "什么海最不产鱼？", "answer": "脑海" },
-    { "type": "riddle", "question": "谁最不喜欢看书？", "answer": "熊猫（因为它是近视眼）" },
-    { "type": "joke", "question": "为什么考研人头发越来越少？", "answer": "因为他们在用脑过度'脱'颖而出" },
-    { "type": "riddle", "question": "什么路最窄？", "answer": "冤家路窄" },
-    { "type": "joke", "question": "为什么考研人喜欢喝咖啡？", "answer": "因为要'续命'才能撑到考试结束" }
+    {
+      "type": "joke",
+      "question": "为什么程序员总是分不清万圣节和圣诞节？",
+      "answer": "因为Oct 31 = Dec 25"
+    },
+    {
+      "type": "joke",
+      "question": "程序员的四大谎言：1.注释马上补 2.变量命名很清晰 3.明天就改 4.这是最后一版",
+      "answer": "你中了几条？😂"
+    },
+    {
+      "type": "joke",
+      "question": "为什么学霸的爱情总是很甜蜜？",
+      "answer": "因为他们有共同的话题：学习"
+    },
+    {
+      "type": "joke",
+      "question": "为什么考研的人不会迷路？",
+      "answer": "因为他们一直在找'上岸'的路"
+    },
+    {
+      "type": "joke",
+      "question": "为什么数学课本总是很伤心？",
+      "answer": "因为它有太多的'例题'被做掉了"
+    },
+    {
+      "type": "joke",
+      "question": "为什么英语四六级考试要带耳机？",
+      "answer": "为了听清楚自己是哪个级别的'菜'"
+    },
+    {
+      "type": "joke",
+      "question": "为什么考研自习室里的水杯都很整齐？",
+      "answer": "因为它们都是'上岸'的水"
+    },
+    {
+      "type": "joke",
+      "question": "为什么考研人喜欢吃泡面？",
+      "answer": "因为他们没时间等外卖，只能'泡'时间"
+    },
+    {
+      "type": "joke",
+      "question": "为什么图书馆的书总是很安静？",
+      "answer": "因为它们都是'静'的"
+    },
+    {
+      "type": "joke",
+      "question": "为什么考研人头发越来越少？",
+      "answer": "因为他们在用脑过度'脱'颖而出"
+    },
+    {
+      "type": "joke",
+      "question": "为什么考研人喜欢喝咖啡？",
+      "answer": "因为要'续命'才能撑到考试结束"
+    }
+  ],
+  "riddles": [
+    {
+      "type": "riddle",
+      "question": "什么东西越洗越脏？",
+      "answer": "水"
+    },
+    {
+      "type": "riddle",
+      "question": "什么书买的人最多但却没人看过？",
+      "answer": "秘书"
+    },
+    {
+      "type": "riddle",
+      "question": "什么饼不能吃？",
+      "answer": "铁饼"
+    },
+    {
+      "type": "riddle",
+      "question": "什么河过不去？",
+      "answer": "银河"
+    },
+    {
+      "type": "riddle",
+      "question": "什么车坐不了人？",
+      "answer": "风车"
+    },
+    {
+      "type": "riddle",
+      "question": "有一种动物，你杀了它却流的是你自己的血？",
+      "answer": "蚊子"
+    },
+    {
+      "type": "riddle",
+      "question": "什么东西天气越热它越喜欢出来？",
+      "answer": "冰淇淋"
+    },
+    {
+      "type": "riddle",
+      "question": "什么动物最容易摔倒？",
+      "answer": "狐狸，因为它狡猾（脚滑）"
+    },
+    {
+      "type": "riddle",
+      "question": "人从哪来却没有办法往回走？",
+      "answer": "厕所"
+    },
+    {
+      "type": "riddle",
+      "question": "什么帽不能戴？",
+      "answer": "螺丝帽"
+    },
+    {
+      "type": "riddle",
+      "question": "什么人一年只工作一天却不会被开除？",
+      "answer": "圣诞老人"
+    },
+    {
+      "type": "riddle",
+      "question": "什么地方早上和晚上都是黑的？",
+      "answer": "梦里"
+    },
+    {
+      "type": "riddle",
+      "question": "什么门永远关不上？",
+      "answer": "球门"
+    },
+    {
+      "type": "riddle",
+      "question": "什么字全世界人民都写不好？",
+      "answer": "错"
+    },
+    {
+      "type": "riddle",
+      "question": "什么球只能踢不能打？",
+      "answer": "地球"
+    },
+    {
+      "type": "riddle",
+      "question": "什么海最不产鱼？",
+      "answer": "脑海"
+    },
+    {
+      "type": "riddle",
+      "question": "谁最不喜欢看书？",
+      "answer": "熊猫（因为它是近视眼）"
+    },
+    {
+      "type": "riddle",
+      "question": "什么路最窄？",
+      "answer": "冤家路窄"
+    }
+  ],
+  "funFacts": [
+    {
+      "question": "人每天会吞下约1升鼻涕",
+      "answer": "大部分随鼻腔纤毛流向喉咙，被我们不知不觉吞下啦~"
+    },
+    {
+      "question": "考拉宝宝的指纹和人类的几乎一模一样",
+      "answer": "甚至专家都无法区分！你还认识几个指纹呢？😄"
+    },
+    {
+      "question": "宇航员在太空中会长高约5厘米",
+      "answer": "因为失重环境会让脊椎软骨放松。回来后会慢慢恢复~"
+    },
+    {
+      "question": "蜂蜜永远不会变质",
+      "answer": "考古学家曾发现3000年前的蜂蜜，居然还能吃！"
+    },
+    {
+      "question": "人眼睛的像素大约是5.76亿",
+      "answer": "比任何相机都强大！你的眼睛是超高清摄像头~"
+    },
+    {
+      "question": "企鹅求婚时会送对方一颗砾石",
+      "answer": "就像人类送戒指一样浪漫！💍"
+    },
+    {
+      "question": "菠萝其实是一种聚花果",
+      "answer": "它是由100多朵花共同发育而成的！"
+    },
+    {
+      "question": "人体内的细菌数量是细胞的10倍",
+      "answer": "别担心，大多数都是有益菌~"
+    }
   ]
 }
