@@ -822,7 +822,7 @@
             <div class="card-content">
                 <div class="chart-container">
                     <div class="chart-wrapper">
-                        <canvas id="study-chart"></canvas>
+                        <canvas id="study-chart" width="700" height="250"></canvas>
                         <div class="chart-no-data" id="chart-no-data" style="display:none;">📊 暂无学习数据</div>
                     </div>
                 </div>
@@ -1458,11 +1458,14 @@
         let studyChart = null;
         
         function initChart() {
-            const ctx = document.getElementById('study-chart').getContext('2d');
+            console.log('initChart called');
+            const canvas = document.getElementById('study-chart');
+            const ctx = canvas.getContext('2d');
             const noDataEl = document.getElementById('chart-no-data');
             
             // 获取最近7天的历史数据
             const history = appData?.history || [];
+            console.log('history:', history);
             if (history.length === 0) {
                 noDataEl.style.display = 'block';
                 return;
@@ -1483,9 +1486,11 @@
             const muyiData = recentHistory.map(item => item.muyi_score || 0);
             const pupilData = recentHistory.map(item => item.pupil_score || 0);
             
+            console.log('muyiData:', muyiData, 'pupilData:', pupilData);
             // 如果数据全为0，显示暂无数据
             if (muyiData.every(v => v === 0) && pupilData.every(v => v === 0)) {
                 noDataEl.style.display = 'block';
+                console.log('No data to display');
                 return;
             }
             
