@@ -1,35 +1,35 @@
 {
-  "lastUpdate": "2026-04-15T00:25:00+08:00",
+  "lastUpdate": "2026-04-15T22:45:00+08:00",
   "today": {
     "date": "2026-04-15",
     "muyi": {
-      "duration": 0,
-      "subject": "-",
-      "quality": 0,
-      "score": 0
+      "duration": 2.25,
+      "subject": "高数2h+英语15min",
+      "quality": 2.7,
+      "score": 4.65
     },
     "pupil": {
-      "duration": 0,
-      "subject": "-",
-      "quality": 0,
-      "score": 0
+      "duration": 3.5,
+      "subject": "数学1.5h+英语2h",
+      "quality": 5.5,
+      "score": 7.4
     },
-    "leader": ""
+    "leader": "pupil"
   },
   "total": {
     "muyi": {
-      "totalDuration": 2.5,
-      "totalScore": 3.0,
-      "wins": 0
+      "totalDuration": 4.75,
+      "totalScore": 7.65,
+      "wins": 1
     },
     "pupil": {
-      "totalDuration": 6.8,
-      "totalScore": 15.61,
-      "wins": 2
+      "totalDuration": 10.3,
+      "totalScore": 23.01,
+      "wins": 3
     }
   },
   "muyi_win_streak": 0,
-  "pupil_win_streak": 2,
+  "pupil_win_streak": 1,
   "muyi_absent_days": 0,
   "pupil_absent_days": 0,
   "muyi_message": "",
@@ -66,6 +66,16 @@
     "以梦为马，不负韶华"
   ],
   "history": [
+    {
+      "date": "2026-04-15",
+      "muyi_duration": 2.25,
+      "muyi_subject": "高数2h+英语15min",
+      "muyi_score": 4.65,
+      "pupil_duration": 3.5,
+      "pupil_subject": "数学1.5h+英语2h",
+      "pupil_score": 7.4,
+      "winner": "pupil"
+    },
     {
       "date": "2026-04-14",
       "muyi_duration": 2.5,
