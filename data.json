@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-15T22:45:00+08:00",
+  "lastUpdate": "2026-04-15T23:55:00+08:00",
   "today": {
     "date": "2026-04-15",
     "muyi": {
@@ -20,60 +20,25 @@
     "muyi": {
       "totalDuration": 4.75,
       "totalScore": 7.65,
-      "wins": 1
+      "wins": 0
     },
     "pupil": {
-      "totalDuration": 10.3,
+      "totalDuration": 8,
       "totalScore": 23.01,
       "wins": 3
     }
   },
   "muyi_win_streak": 0,
-  "pupil_win_streak": 1,
-  "muyi_absent_days": 0,
-  "pupil_absent_days": 0,
-  "muyi_message": "",
-  "pupil_message": "",
-  "motivational_quotes": [
-    "每天进步一点点，就是最大的胜利",
-    "坚持不是一种选择，是一种态度",
-    "今天的努力，是为了明天的选择权",
-    "你的对手不是别人，是昨天的自己",
-    "成功的路上并不拥挤，因为坚持的人不多",
-    "星光不问赶路人，时光不负有心人",
-    "不要等待机会，而要创造机会",
-    "自律的人，才能获得真正的自由",
-    "学习是最便宜的投资，却是最昂贵的成长",
-    "累了就休息，但别放弃",
-    "每一个早起都是对梦想的致敬",
-    "比你优秀的人还在努力，你有什么资格不奋斗",
-    "现在流的每一滴汗，都会变成未来的眼泪",
-    "坚持很苦，但放弃更苦",
-    "别人能做到的，你也能做到",
-    "别让今天的懒，成为明天的难",
-    "学习是一场马拉松，不是百米冲刺",
-    "今天多学一点，明天少求一点",
-    "没有横空出世的运气，只有不为人知的努力",
-    "当你觉得为时已晚的时候，恰恰是最早的时候",
-    "努力只能及格，拼命才能优秀",
-    "别在该奋斗的年纪，选择了安逸",
-    "书山有路勤为径，学海无涯苦作舟",
-    "宝剑锋从磨砺出，梅花香自苦寒来",
-    "不积跬步，无以至千里；不积小流，无以成江海",
-    "学如逆水行舟，不进则退",
-    "天道酬勤，厚德载物",
-    "路虽远，行则将至；事虽难，做则必成",
-    "以梦为马，不负韶华"
-  ],
+  "pupil_win_streak": 3,
   "history": [
     {
-      "date": "2026-04-15",
-      "muyi_duration": 2.25,
-      "muyi_subject": "高数2h+英语15min",
-      "muyi_score": 4.65,
-      "pupil_duration": 3.5,
-      "pupil_subject": "数学1.5h+英语2h",
-      "pupil_score": 7.4,
+      "date": "2026-04-13",
+      "muyi_duration": 0,
+      "muyi_subject": "-",
+      "muyi_score": 0,
+      "pupil_duration": 3.3,
+      "pupil_subject": "数学2h+英语1.3h",
+      "pupil_score": 8.06,
       "winner": "pupil"
     },
     {
@@ -87,27 +52,14 @@
       "winner": "pupil"
     },
     {
-      "date": "2026-04-13",
-      "muyi_duration": 0,
-      "muyi_subject": "-",
-      "muyi_score": 0,
-      "pupil_duration": 198,
-      "pupil_subject": "数学2h+英语1.3h",
-      "pupil_score": 8.06,
+      "date": "2026-04-15",
+      "muyi_duration": 2.25,
+      "muyi_subject": "高数2h+英语15min",
+      "muyi_score": 4.65,
+      "pupil_duration": 3.5,
+      "pupil_subject": "数学1.5h+英语2h",
+      "pupil_score": 7.4,
       "winner": "pupil"
     }
-  ],
-  "jokes": [
-    {
-      "type": "joke",
-      "question": "为什么程序员总是分不清万圣节和圣诞节？",
-      "answer": "因为Oct 31 = Dec 25"
-    },
-    {
-      "type": "joke",
-      "question": "程序员的四大谎言：1.注释马上补 2.变量命名很清晰 3.明天就改 4.这是最后一版",
-      "answer": "你中了几条？😂"
-    }
-  ],
-  "initJokeIndex": 0
+  ]
 }
