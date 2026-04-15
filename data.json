@@ -1,21 +1,23 @@
 {
-  "lastUpdate": "2026-04-15T23:55:00+08:00",
+  "lastUpdate": "2026-04-16T00:25:00+08:00",
   "today": {
-    "date": "2026-04-15",
+    "date": "2026-04-16",
     "muyi": {
-      "duration": 2.25,
-      "subject": "高数2h+英语15min",
-      "quality": 2.7,
-      "score": 4.65
+      "duration": 0,
+      "subject": "-",
+      "quality": 0,
+      "score": 0
     },
     "pupil": {
-      "duration": 3.5,
-      "subject": "数学1.5h+英语2h",
-      "quality": 5.5,
-      "score": 7.4
+      "duration": 0,
+      "subject": "-",
+      "quality": 0,
+      "score": 0
     },
-    "leader": "pupil"
+    "leader": ""
   },
+  "muyi_message": "",
+  "pupil_message": "",
   "total": {
     "muyi": {
       "totalDuration": 4.75,
