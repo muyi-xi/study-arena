@@ -1,12 +1,12 @@
 {
   "lastUpdate": "2026-04-16T23:36:39+08:00",
   "today": {
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "muyi": {
-      "duration": 0.5,
-      "subject": "英语背单词",
-      "quality": 3,
-      "score": 2.1
+      "duration": 0,
+      "subject": "-",
+      "quality": 0,
+      "score": 0
     },
     "pupil": {
       "duration": 0,
@@ -20,9 +20,9 @@
   "pupil_message": "",
   "total": {
     "muyi": {
-      "totalDuration": 4.75,
-      "totalScore": 7.65,
-      "wins": 0
+      "totalDuration": 5.25,
+      "totalScore": 9.75,
+      "wins": 1
     },
     "pupil": {
       "totalDuration": 8,
@@ -30,8 +30,8 @@
       "wins": 3
     }
   },
-  "muyi_win_streak": 0,
-  "pupil_win_streak": 3,
+  "muyi_win_streak": 1,
+  "pupil_win_streak": 0,
   "history": [
     {
       "date": "2026-04-13",
@@ -65,13 +65,13 @@
     },
     {
       "date": "2026-04-16",
-      "muyi_duration": 0,
-      "muyi_subject": "-",
-      "muyi_score": 0,
+      "muyi_duration": 0.5,
+      "muyi_subject": "英语背单词",
+      "muyi_score": 2.1,
       "pupil_duration": 0,
       "pupil_subject": "-",
       "pupil_score": 0,
-      "winner": "none"
+      "winner": "muyi"
     }
   ]
 }
