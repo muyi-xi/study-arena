@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-04-18T00:25:52+08:00",
+  "lastUpdate": "2026-04-19T00:25:51+08:00",
   "today": {
-    "date": "2026-04-18",
+    "date": "2026-04-19",
     "muyi": {
       "duration": 0,
       "subject": "-",
@@ -22,7 +22,7 @@
     "muyi": {
       "totalDuration": 5.25,
       "totalScore": 9.75,
-      "wins": 0
+      "wins": 1
     },
     "pupil": {
       "totalDuration": 11,
@@ -30,8 +30,8 @@
       "wins": 4
     }
   },
-  "muyi_win_streak": 0,
-  "pupil_win_streak": 4,
+  "muyi_win_streak": 1,
+  "pupil_win_streak": 0,
   "history": [
     {
       "date": "2026-04-13",
@@ -82,6 +82,16 @@
       "pupil_subject": "-",
       "pupil_score": 0,
       "winner": "none"
+    },
+    {
+      "date": "2026-04-18",
+      "muyi_duration": 1.5,
+      "muyi_subject": "数学1h+英语0.5h",
+      "muyi_score": 5.1,
+      "pupil_duration": 0,
+      "pupil_subject": "-",
+      "pupil_score": 0,
+      "winner": "muyi"
     }
   ]
 }
