@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-04-19T00:25:51+08:00",
+  "lastUpdate": "2026-04-19T23:37:00+08:00",
   "today": {
-    "date": "2026-04-19",
+    "date": "2026-04-20",
     "muyi": {
       "duration": 0,
       "subject": "-",
@@ -20,13 +20,13 @@
   "pupil_message": "",
   "total": {
     "muyi": {
-      "totalDuration": 5.25,
-      "totalScore": 9.75,
+      "totalDuration": 6.75,
+      "totalScore": 14.85,
       "wins": 0
     },
     "pupil": {
-      "totalDuration": 14,
-      "totalScore": 37.76,
+      "totalDuration": 17,
+      "totalScore": 45.46,
       "wins": 5
     }
   },
@@ -92,6 +92,16 @@
       "pupil_subject": "数学2h+英语1h",
       "pupil_score": 7.7,
       "winner": "pupil"
+    },
+    {
+      "date": "2026-04-19",
+      "muyi_duration": 0,
+      "muyi_subject": "-",
+      "muyi_score": 0,
+      "pupil_duration": 0,
+      "pupil_subject": "-",
+      "pupil_score": 0,
+      "winner": "none"
     }
   ]
 }
