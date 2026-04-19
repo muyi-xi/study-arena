@@ -22,16 +22,16 @@
     "muyi": {
       "totalDuration": 5.25,
       "totalScore": 9.75,
-      "wins": 1
+      "wins": 0
     },
     "pupil": {
-      "totalDuration": 11,
-      "totalScore": 30.06,
-      "wins": 4
+      "totalDuration": 14,
+      "totalScore": 37.76,
+      "wins": 5
     }
   },
-  "muyi_win_streak": 1,
-  "pupil_win_streak": 0,
+  "muyi_win_streak": 0,
+  "pupil_win_streak": 5,
   "history": [
     {
       "date": "2026-04-13",
@@ -88,10 +88,10 @@
       "muyi_duration": 1.5,
       "muyi_subject": "数学1h+英语0.5h",
       "muyi_score": 5.1,
-      "pupil_duration": 0,
-      "pupil_subject": "-",
-      "pupil_score": 0,
-      "winner": "muyi"
+      "pupil_duration": 3,
+      "pupil_subject": "数学2h+英语1h",
+      "pupil_score": 7.7,
+      "winner": "pupil"
     }
   ]
 }
