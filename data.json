@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-04-21T00:25:52+08:00",
+  "lastUpdate": "2026-04-22T23:36:50+08:00",
   "today": {
     "date": "2026-04-22",
     "muyi": {
-      "duration": 0,
-      "subject": "-",
-      "quality": 0,
-      "score": 0
+      "duration": 4.07,
+      "subject": "高数3.4h+英语0.67h",
+      "quality": 7,
+      "score": 9.4
     },
     "pupil": {
       "duration": 0,
@@ -14,15 +14,15 @@
       "quality": 0,
       "score": 0
     },
-    "leader": ""
+    "leader": "muyi"
   },
   "muyi_message": "",
   "pupil_message": "",
   "total": {
     "muyi": {
-      "totalDuration": 8.75,
-      "totalScore": 23.85,
-      "wins": 1
+      "totalDuration": 12.82,
+      "totalScore": 33.25,
+      "wins": 2
     },
     "pupil": {
       "totalDuration": 23,
@@ -30,7 +30,7 @@
       "wins": 7
     }
   },
-  "muyi_win_streak": 1,
+  "muyi_win_streak": 0,
   "pupil_win_streak": 0,
   "history": [
     {
@@ -98,13 +98,23 @@
       "muyi_duration": 0,
       "muyi_subject": "-",
       "muyi_score": 0,
-      "pupil_duration": 3.5,
-      "pupil_subject": "数学2h+英语1.5h",
-      "pupil_score": 8.1,
+      "pupil_duration": 2.5,
+      "pupil_subject": "数学",
+      "pupil_score": 6.25,
       "winner": "pupil"
     },
     {
       "date": "2026-04-20",
+      "muyi_duration": 0,
+      "muyi_subject": "-",
+      "muyi_score": 0,
+      "pupil_duration": 3,
+      "pupil_subject": "数学2h+英语1h",
+      "pupil_score": 7.7,
+      "winner": "pupil"
+    },
+    {
+      "date": "2026-04-21",
       "muyi_duration": 0,
       "muyi_subject": "-",
       "muyi_score": 0,
@@ -114,10 +124,10 @@
       "winner": "none"
     },
     {
-      "date": "2026-04-21",
-      "muyi_duration": 1,
-      "muyi_subject": "高数1h",
-      "muyi_score": 4.5,
+      "date": "2026-04-22",
+      "muyi_duration": 4.07,
+      "muyi_subject": "高数3.4h+英语0.67h",
+      "muyi_score": 9.4,
       "pupil_duration": 0,
       "pupil_subject": "-",
       "pupil_score": 0,
