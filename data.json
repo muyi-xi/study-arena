@@ -9,12 +9,12 @@
       "score": 9.4
     },
     "pupil": {
-      "duration": 0,
-      "subject": "-",
-      "quality": 0,
-      "score": 0
+      "duration": 6,
+      "subject": "数学5.5h+英语0.5h",
+      "quality": 8,
+      "score": 12.85
     },
-    "leader": "muyi"
+    "leader": "pupil"
   },
   "muyi_message": "",
   "pupil_message": "",
@@ -22,12 +22,12 @@
     "muyi": {
       "totalDuration": 12.82,
       "totalScore": 33.25,
-      "wins": 2
+      "wins": 1
     },
     "pupil": {
-      "totalDuration": 23,
-      "totalScore": 59.86,
-      "wins": 7
+      "totalDuration": 29,
+      "totalScore": 72.71,
+      "wins": 8
     }
   },
   "muyi_win_streak": 0,
@@ -128,10 +128,10 @@
       "muyi_duration": 4.07,
       "muyi_subject": "高数3.4h+英语0.67h",
       "muyi_score": 9.4,
-      "pupil_duration": 0,
-      "pupil_subject": "-",
-      "pupil_score": 0,
-      "winner": "muyi"
+      "pupil_duration": 6,
+      "pupil_subject": "数学5.5h+英语0.5h",
+      "pupil_score": 12.85,
+      "winner": "pupil"
     }
   ]
 }
