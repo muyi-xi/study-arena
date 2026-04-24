@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-04-24T00:26:00+08:00",
+  "lastUpdate": "2026-04-25T00:25:54+08:00",
   "today": {
-    "date": "2026-04-24",
+    "date": "2026-04-25",
     "muyi": {
       "duration": 0,
       "subject": "-",
@@ -142,6 +142,16 @@
       "pupil_subject": "数学2h+英语1h",
       "pupil_score": 6.55,
       "winner": "pupil"
+    },
+    {
+      "date": "2026-04-24",
+      "muyi_duration": 0,
+      "muyi_subject": "-",
+      "muyi_score": 0,
+      "pupil_duration": 0,
+      "pupil_subject": "-",
+      "pupil_score": 0,
+      "winner": "none"
     }
   ]
 }
