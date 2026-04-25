@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-04-25T00:25:54+08:00",
+  "lastUpdate": "2026-04-26T00:26:08+08:00",
   "today": {
-    "date": "2026-04-25",
+    "date": "2026-04-26",
     "muyi": {
       "duration": 0,
       "subject": "-",
@@ -105,42 +105,42 @@
     },
     {
       "date": "2026-04-20",
-      "muyi_duration": 2.07,
-      "muyi_subject": "高数2h+英语",
-      "muyi_score": 5.37,
-      "pupil_duration": 3,
-      "pupil_subject": "数学2h+英语1h",
-      "pupil_score": 6.7,
-      "winner": "pupil"
+      "muyi_duration": 0,
+      "muyi_subject": "-",
+      "muyi_score": 0,
+      "pupil_duration": 0,
+      "pupil_subject": "-",
+      "pupil_score": 0,
+      "winner": "none"
     },
     {
       "date": "2026-04-21",
-      "muyi_duration": 0.5,
-      "muyi_subject": "英语",
+      "muyi_duration": 1.5,
+      "muyi_subject": "英语单词",
       "muyi_score": 3.0,
-      "pupil_duration": 3,
-      "pupil_subject": "数学1.5h+英语1.5h",
-      "pupil_score": 6.3,
+      "pupil_duration": 5,
+      "pupil_subject": "数学4h+英语1h",
+      "pupil_score": 10.0,
       "winner": "pupil"
     },
     {
       "date": "2026-04-22",
-      "muyi_duration": 1.75,
-      "muyi_subject": "高数1.75h",
-      "muyi_score": 3.93,
+      "muyi_duration": 1.5,
+      "muyi_subject": "英语单词+数学",
+      "muyi_score": 3.75,
       "pupil_duration": 3,
       "pupil_subject": "数学2h+英语1h",
-      "pupil_score": 5.95,
+      "pupil_score": 6.6,
       "winner": "pupil"
     },
     {
       "date": "2026-04-23",
-      "muyi_duration": 2.25,
-      "muyi_subject": "高数1.75h+英语0.5h",
-      "muyi_score": 6.1,
-      "pupil_duration": 3,
-      "pupil_subject": "数学2h+英语1h",
-      "pupil_score": 6.55,
+      "muyi_duration": 1.57,
+      "muyi_subject": "英语语法+单词",
+      "muyi_score": 5.67,
+      "pupil_duration": 4,
+      "pupil_subject": "数学3h+英语1h",
+      "pupil_score": 8.6,
       "winner": "pupil"
     },
     {
@@ -152,6 +152,16 @@
       "pupil_subject": "-",
       "pupil_score": 0,
       "winner": "none"
+    },
+    {
+      "date": "2026-04-25",
+      "muyi_duration": 2,
+      "muyi_subject": "英语语法+数学",
+      "muyi_score": 4.0,
+      "pupil_duration": 4,
+      "pupil_subject": "数学3h+英语1h",
+      "pupil_score": 8.75,
+      "winner": "pupil"
     }
   ]
 }
