@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-04-29T00:25:58.000000",
+  "lastUpdate": "2026-04-30T00:25:54.000000",
   "today": {
-    "date": "2026-04-29",
+    "date": "2026-04-30",
     "muyi": {
       "duration": 0,
       "subject": "-",
@@ -175,6 +175,16 @@
     },
     {
       "date": "2026-04-28",
+      "muyi_duration": 0,
+      "muyi_subject": "-",
+      "muyi_score": 0,
+      "pupil_duration": 0,
+      "pupil_subject": "-",
+      "pupil_score": 0,
+      "winner": "none"
+    },
+    {
+      "date": "2026-04-29",
       "muyi_duration": 0,
       "muyi_subject": "-",
       "muyi_score": 0,
